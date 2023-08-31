@@ -1,0 +1,71 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color and font for the entire page */
+body {
+  font-family: "Merriweathe", sans-serif;
+  background-color: #acebd1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+
+
+/* Style for the header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Style for main content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for blog cards */
+.blog-card {
+  border: 1px solid #b59b9b;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style for buttons */
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Add more styling rules for other elements as needed */
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+}
